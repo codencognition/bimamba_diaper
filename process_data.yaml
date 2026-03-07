@@ -1,0 +1,20 @@
+# data processing options
+context_size: 7
+feature_dim: 40
+frame_shift: 160
+frame_size: 400
+input_transform: logmel_meannorm
+macro_batchsize: 1
+min_length: 0
+num_frames: 600
+num_speakers: 2
+num_workers: 32
+sampling_rate: 16000
+seed: 3
+specaugment: False
+subsampling: 10
+use_last_samples: True
+time_shuffle: False
+train_data_dir: /root/workspace/EEND_dataprep/v2/LibriSpeech/datasets/v1_250hours/--use-rirs--use-noises/train/data
+valid_data_dir: /root/workspace/EEND_dataprep/v2/LibriSpeech/datasets/v1_250hours/--use-rirs--use-noises/validation/data
+features_output_path: /root/workspace/3_spks_rir_musa_pcf
