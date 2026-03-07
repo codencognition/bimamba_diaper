@@ -46,10 +46,10 @@ python diaper/precompute_features.py -c examples/train.yaml \
     --valid-data-dir <path to kaldi validation directory>
 
 ## Using Precomputed Features
-Update `train.yaml`:
-train_features_dir: <path to precomputed train features directory>
-valid_features_dir: <path to  precomputed validation features directory>
-train_data_dir: null
+Update `train.yaml`\
+train_features_dir: <path to precomputed train features directory>\
+valid_features_dir: <path to  precomputed validation features directory>\
+train_data_dir: null\
 valid_data_dir: null
 
 
