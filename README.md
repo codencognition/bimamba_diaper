@@ -1,6 +1,5 @@
 ## Server Details
 - GPU: NVIDIA RTX 5070 Ti (~16GB VRAM)
-- Platform: Vast.ai
 
 ## Environment Details
 - Conda env: Python 3.10
