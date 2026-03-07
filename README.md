@@ -47,7 +47,7 @@ python diaper/precompute_features.py -c examples/train.yaml \
 
 ## Using Precomputed Features
 Update `train.yaml`\
-train_features_dir: path to precomputed train features directory
+train_features_dir: path to precomputed train features directory \
 valid_features_dir: path to  precomputed validation features directory
 
 ## Training
