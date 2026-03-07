@@ -20,7 +20,7 @@
 - mamba-ssm = 2.3.0
 - causal-conv1d = 1.6.0
 
-### Training Config (`examples/train.yaml`)
+### Training Config (`train.yaml`)
 - `gpu: 1` — single GPU (RTX 5070 Ti)
 - `train_batchsize: 32`
 - `dev_batchsize: 128`
