@@ -34,15 +34,15 @@
 ## Precomputed Features
 # Train split
 python bimamba_diaper/precompute_features.py -c train.yaml \
-    --output-features-dir <path to output train directory> \
+    --output-features-dir path to output train directory \
     --split train \
-    --train-data-dir <path to kaldi train directory>
+    --train-data-dir path to kaldi train directory
 
 # Validation split
 python bimamba_diaper/precompute_features.py -c train.yaml \
-    --output-features-dir <path to output train directory> \
+    --output-features-dir path to output train directory \
     --split validation \
-    --valid-data-dir <path to kaldi validation directory>
+    --valid-data-dir path to kaldi validation directory
 
 ## Using Precomputed Features
 Update `train.yaml`\
