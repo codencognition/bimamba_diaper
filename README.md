@@ -33,13 +33,13 @@
 
 ## Precomputed Features
 # Train split
-python diaper/precompute_features.py -c examples/train.yaml \
+python bimamba_diaper/precompute_features.py -c train.yaml \
     --output-features-dir <path to output train directory> \
     --split train \
     --train-data-dir <path to kaldi train directory>
 
 # Validation split
-python diaper/precompute_features.py -c examples/train.yaml \
+python bimamba_diaper/precompute_features.py -c train.yaml \
     --output-features-dir <path to output train directory> \
     --split validation \
     --valid-data-dir <path to kaldi validation directory>
